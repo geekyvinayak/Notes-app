@@ -37,7 +37,7 @@ const showNotes = () => {
                             <div class="bottom-content">
                                 <span>${note.date}</span>
                                 <div class="settings" id="mydiv">
-                                    <i onclick=showMenu(this)  >click</i>
+                                    <i onclick=showMenu(this)>....</i>
                                     <ul class="menu">
                                         <li onclick="editNote(${index},'${note.title}','${note.description}')"><img src="editing.png">Edit</li>
                                         <li onclick="deleteNote(${index})"><img src="editing.png">Delete</li>
