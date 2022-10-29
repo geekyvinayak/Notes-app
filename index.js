@@ -39,8 +39,8 @@ const showNotes = () => {
                                 <div class="settings" id="mydiv">
                                     <i onclick=showMenu(this)  >click</i>
                                     <ul class="menu">
-                                        <li onclick="editNote(${index},'${note.title}','${note.description}')"><i class="fa-light fa-pen"></i>Edit</li>
-                                        <li onclick="deleteNote(${index})"><i class="fa-duotone fa-trash"></i>Delete</li>
+                                        <li onclick="editNote(${index},'${note.title}','${note.description}')"><img src="editing.png">Edit</li>
+                                        <li onclick="deleteNote(${index})"><img src="editing.png">Delete</li>
                                     </ul>
                                 </div>
                             </div>
